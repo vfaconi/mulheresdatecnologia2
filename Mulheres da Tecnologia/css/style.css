@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+/* Titulo do Site */
+div#titulo_menu h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	background-color: #f95738;
+	color: white;
+	margin-top: 0px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/* Menu Principal */
+nav#menu{
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+  	color: white;
+	font-weight: bolder;
+	background-color: #f95738;
+	padding-top: 0px; 
+	padding-left: 15px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+nav#menu li {
+    display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	padding: 5px;
+	margin: 5px;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:visited { 
+	color: white; 
+}
+
+nav#menu a:hover {
+    color: black;
+	text-decoration: none;
+}
+
+nav#menu a:link {
+	text-decoration: none;
+}
+
+/* Seção Frase Inicio (index)*/
+.frase_inicio {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+/* Seção Ada, Grace, Margaret, Mary, Edith, Dorothy, Katherine, Mary Jackson e Texto Sobre o Site (index)*/
+.sobre_pessoa h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 15px;
+	color: #002E5D;
+}
+
+.sobre_pessoa p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Imagem Ada, Grace, Margaret, Mary, Edith, Dorothy, Katherine e Mary Jackson */
+.img_pessoa {
+	width: 350px;
+	height: 430px;
+	display: block;
+	margin: auto;
+}
+
+.img_margaret {
+	width: 450px;
+	height: 350px;
+	display: block;
+	margin: auto;
+}
+
+.img_edith {
+	width: 420px;
+	height: 330px;
+	display: block;
+	margin: auto;
+}
+
+/* Video Ada, Grace, Margaret, Mary, Edith, Dorothy, Katherine, Mary Jackson, Reshma (index), Pq todos devem programar (index) */
+.video_pessoa {
+	display: block;
+	margin: auto;
+
+}
+
+/* Saiba Mais */
+.saiba_mais li { 
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+	padding-top: 0px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.saiba_mais p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 40px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.saiba_mais {
+	background-color: #f95738;
+}
+
+a:visited { 
+	color: white; 
+}
+
+a:hover {
+    color: black;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/* Seção Frases (index) */
+
+.frase01 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+	margin: 20px;
+	padding: 20px;
+	padding-left: 70px;
+}
+
+.frase02 {
+	display: inline-block;
+    width: 300px;
+    height: 300px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.frase03 {
+	display: inline-block;
+    width: 300px;
+    height: 300px;
+	margin: 20px;
+	padding: 20px;
+}
